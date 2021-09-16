@@ -1,20 +1,18 @@
-# Install
+# Floof-A-Gram
 
-`npm install`
+Dogs only Instagram!
+Users can sign up with email, and post cute pictures of their dogs to the feed.
 
----
+![image](https://res.cloudinary.com/jackieregs/image/upload/v1631825435/instagram_hdrmm2.png)
 
-# Things to add
 
-- Create a `.env` file and add the following as `key = value`
-  - PORT = 2121 (can be any port example: 3000)
-  - DB_STRING = `your database URI`
-  - CLOUD_NAME = `your cloudinary cloud name`
-  - API_KEY = `your cloudinary api key`
-  - API_SECRET = `your cloudinary api secret`
+Link to project: https://floof-a-gram.herokuapp.com/
 
----
+How It's Made:
+Tech used: HTML, CSS, JavaScript, EJS, MongoDB
 
-# Run
+I followed the Model, View, Controller framework. For the model I used Mongoose along with MongoDB to store all of the information. I wrote API's to fetch infromation from MongoDB, used the controllers to render the views. The Views were made with EJS.
 
-`npm start`
+
+Lessons Learned:
+I really liked how it all came together, from authentication to writing API's to fetching information and rendering views. This project taught me a lot of things. While it may not be the best looking project, the project represents the wireframe stage, and allowed me to understand how different components worked together.
