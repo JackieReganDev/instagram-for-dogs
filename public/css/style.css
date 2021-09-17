@@ -1,12 +1,16 @@
 body{
+    height: 100%;
     font-family: 'Fira Sans', sans-serif;
     background-image: url("https://images.unsplash.com/photo-1600111619583-ececb4b4fac1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2000&q=80");
-    object-fit: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     color: white;
+    margin-bottom: 75px;
 
 }
+
 h1{
+    margin-top: 75px;
     font-weight: bold;
     font-size: 3rem;
 }
@@ -27,13 +31,14 @@ a:hover{
     background: pink;
     border: 2px solid hotpink;
 }
-form{
-    margin-bottom: 50px;
-}
+
 .fa{
-    color: rgb(247, 12, 208) !important;
+    color: plum !important;
     display: block;
     margin: 0 auto;
+}
+.fa-paw:hover{
+    color: pink !important;
 }
 span{
     font-size: 2rem;
