@@ -28,7 +28,7 @@ a:hover{
     border: 2px solid hotpink;
 }
 form{
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 .fa{
     color: rgb(247, 12, 208) !important;
